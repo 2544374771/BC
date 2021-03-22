@@ -9,4 +9,9 @@ import UIKit
 
 class Tool: NSObject {
 
+    override init() {
+        super.init()
+        
+        print("这是Tool")
+    }
 }
